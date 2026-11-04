@@ -35,18 +35,18 @@ Sebelum menginstal aplikasi ini, pastikan komputer Anda (atau server) sudah teri
 - [Python](https://www.python.org/) (Minimal v3.10)
 - **[FFmpeg](https://ffmpeg.org/)** (Wajib diinstal dan didaftarkan ke *System PATH Windows/Linux*)
   <details>
-<summary><b>💡 Klik di sini untuk panduan instalasi FFmpeg (Khusus Windows)</b></summary>
-
-1. Unduh FFmpeg dari [gyan.dev](https://www.gyan.dev/ffmpeg/builds/) (Pilih file berakhiran `.zip` seperti `ffmpeg-release-essentials.zip`).
-2. Ekstrak file zip tersebut. Ubah nama folder hasil ekstraknya menjadi `ffmpeg` agar lebih singkat.
-3. Pindahkan folder `ffmpeg` tersebut ke dalam Local Disk `C:\` (sehingga jalurnya menjadi `C:\ffmpeg`).
-4. Buka menu Start Windows, ketik **Environment Variables**, lalu tekan Enter (pilih *Edit the system environment variables*).
-5. Klik tombol **Environment Variables...** di pojok kanan bawah.
-6. Pada kotak bagian bawah (*System variables*), cari baris bernama **Path**, lalu klik tombol **Edit...**.
-7. Klik tombol **New**, lalu ketikkan teks ini persis: `C:\ffmpeg\bin`
-8. Klik **OK** di semua ketiga jendela yang terbuka untuk menyimpan.
-9. Buka Terminal/Command Prompt baru, lalu ketik `ffmpeg -version`. Jika muncul teks informasi versi, berarti FFmpeg sudah siap digunakan!
-</details>
+  <summary><b>💡 Klik di sini untuk panduan instalasi FFmpeg (Khusus Windows)</b></summary>
+  
+  1. Unduh FFmpeg dari [gyan.dev](https://www.gyan.dev/ffmpeg/builds/) (Pilih file berakhiran `.zip` seperti `ffmpeg-release-essentials.zip`).
+  2. Ekstrak file zip tersebut. Ubah nama folder hasil ekstraknya menjadi `ffmpeg` agar lebih singkat.
+  3. Pindahkan folder `ffmpeg` tersebut ke dalam Local Disk `C:\` (sehingga jalurnya menjadi `C:\ffmpeg`).
+  4. Buka menu Start Windows, ketik **Environment Variables**, lalu tekan Enter (pilih *Edit the system environment variables*).
+  5. Klik tombol **Environment Variables...** di pojok kanan bawah.
+  6. Pada kotak bagian bawah (*System variables*), cari baris bernama **Path**, lalu klik tombol **Edit...**.
+  7. Klik tombol **New**, lalu ketikkan teks ini persis: `C:\ffmpeg\bin`
+  8. Klik **OK** di semua ketiga jendela yang terbuka untuk menyimpan.
+  9. Buka Terminal/Command Prompt baru, lalu ketik `ffmpeg -version`. Jika muncul teks informasi versi, berarti FFmpeg sudah siap digunakan!
+  </details>
 - Database MySQL (XAMPP / Laragon / MySQL Server)
 
 ---
