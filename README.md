@@ -55,13 +55,20 @@ cp .env.example .env
 php artisan key:generate
 ```
 - Buka file `.env` di folder `fivi-api` menggunakan *text editor*.
-- Atur koneksi database (buat database baru di MySQL bernama `fivi_db`):
+- Sesuaikan pengaturan database (buat database baru di MySQL bernama `fivi-db` dan pastikan DB_CONNECTION=mysql) dan tambahkan API Key Anda:
   ```env
-  DB_DATABASE=fivi_db
+  DB_DATABASE=fivi-db
   DB_USERNAME=root
   DB_PASSWORD=
+
+  # API Youtube
+  YOUTUBE_API_KEY=masukkan_api_key_youtube_anda_di_sini
   
+  # API Gemini
   GEMINI_API_KEY=masukkan_api_key_gemini_anda_di_sini
+
+  # Pastikan Queue menggunakan database
+  QUEUE_CONNECTION=database
   ```
 - Jalankan migrasi database:
   ```bash
