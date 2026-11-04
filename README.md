@@ -51,7 +51,7 @@ Buka terminal dan masuk ke folder `fivi-api`:
 ```bash
 cd fivi-api
 composer install
-cp .env.example .env
+copy .env.example .env
 php artisan key:generate
 ```
 - Buka file `.env` di folder `fivi-api` menggunakan *text editor*.
