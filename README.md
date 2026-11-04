@@ -42,7 +42,7 @@ Sebelum menginstal aplikasi ini, pastikan komputer Anda (atau server) sudah teri
 
 Langkah pertama, *clone repository* ini ke komputer Anda:
 ```bash
-git clone [https://github.com/Ree006900/FiVi-Video-Search.git](https://github.com/Ree006900/FiVi-Video-Search.git)
+git clone https://github.com/Ree006900/FiVi-Video-Search.git
 cd FiVi-Video-Search
 ```
 
