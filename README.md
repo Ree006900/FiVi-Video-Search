@@ -30,7 +30,7 @@ Proyek ini terdiri dari 3 bagian utama:
 ## ⚙️ Persyaratan Sistem (Prerequisites)
 
 Sebelum menginstal aplikasi ini, pastikan komputer Anda (atau server) sudah terinstal:
-- [PHP](https://www.php.net/) (Minimal v8.1) & [Composer](https://getcomposer.org/)
+- [PHP](https://www.php.net/) (Minimal v8.2) & [Composer](https://getcomposer.org/)
 - [Node.js](https://nodejs.org/) & npm
 - [Python](https://www.python.org/) (Minimal v3.10)
 - **[FFmpeg](https://ffmpeg.org/)** (Wajib diinstal dan didaftarkan ke *System PATH Windows/Linux*)
@@ -97,7 +97,7 @@ php artisan key:generate
   ```
 
 ### 2. Setup Transcriber (Python)
-Buka terminal baru dan masuk ke folder `transcriber`:
+Buka terminal baru (CMD) dan masuk ke folder `transcriber`:
 ```bash
 cd transcriber
 
