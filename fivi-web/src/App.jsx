@@ -226,6 +226,7 @@ export default function App() {
   
   const [activeQueue, setActiveQueue] = useState([]);
   const [isQueueOpen, setIsQueueOpen] = useState(false);
+  const hasAutoOpenedQueue = useRef(false);
   
   const [searchTab, setSearchTab] = useState("youtube");
   const [sources, setSources] = useState([]);
@@ -308,7 +309,10 @@ export default function App() {
         if (isMounted && response.ok) {
           const queueData = result.data || [];
           setActiveQueue(queueData);
-          if (queueData.length > 0) setIsQueueOpen(true);
+          if (queueData.length > 0 && !hasAutoOpenedQueue.current) {
+            setIsQueueOpen(true);
+            hasAutoOpenedQueue.current = true;
+          }
         }
       } catch (err) {
         console.warn("Gagal memuat status antrean:", err);
