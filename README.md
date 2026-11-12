@@ -143,5 +143,4 @@ npm run dev
 
 ---
 
-## 📝 Lisensi
-FiVi - FindVideo
+
