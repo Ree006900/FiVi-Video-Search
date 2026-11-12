@@ -144,4 +144,4 @@ npm run dev
 ---
 
 ## 📝 Lisensi
-Proyek FiVi dibuat untuk tujuan edukasi dan portofolio.
+FiVi - FindVideo
